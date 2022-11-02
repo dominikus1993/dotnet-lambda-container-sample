@@ -1,5 +1,7 @@
 using Amazon.Lambda.Core;
 
+using Sample.Domain.Model;
+
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
@@ -19,5 +21,3 @@ public class Function
         return new Casing(input.ToLower(), input.ToUpper());
     }
 }
-
-public record Casing(string Lower, string Upper);
