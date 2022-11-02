@@ -1,0 +1,10 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0
+nuget Amazon.Lambda.Core
+nuget Amazon.Lambda.Serialization.SystemTextJson
+nuget Amazon.Lambda.TestUtilities
+nuget Microsoft.NET.Test.Sdk
+nuget xunit
+nuget xunit.runner.visualstudio

@@ -6,6 +6,7 @@ WORKDIR /src
 COPY . .
 RUN dotnet tool restore
 ENV PATH="/root/.dotnet/tools:${PATH}"
+RUN dotnet paket restore
 
 WORKDIR /src/src/dotnet-lambda-container-sample
 RUN dotnet restore -nowarn:msb3202,nu1503 "dotnet-lambda-container-sample.csproj"
