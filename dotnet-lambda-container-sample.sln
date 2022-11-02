@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{163626DC-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-lambda-container-sample.Tests", "test\dotnet-lambda-container-sample.Tests\dotnet-lambda-container-sample.Tests.csproj", "{ADD8BE06-1005-4268-BA4A-C6738370DC14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Domain", "src\Sample.Domain\Sample.Domain.csproj", "{5310A317-31FB-4061-9D02-6E57A8C60F0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{ADD8BE06-1005-4268-BA4A-C6738370DC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD8BE06-1005-4268-BA4A-C6738370DC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD8BE06-1005-4268-BA4A-C6738370DC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5310A317-31FB-4061-9D02-6E57A8C60F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5310A317-31FB-4061-9D02-6E57A8C60F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5310A317-31FB-4061-9D02-6E57A8C60F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5310A317-31FB-4061-9D02-6E57A8C60F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{81484C5C-7210-4294-B82A-C1BD47013981} = {CBAAA1B7-EA0D-4AE7-8AA2-7923A531E816}
 		{ADD8BE06-1005-4268-BA4A-C6738370DC14} = {163626DC-A1D6-41CD-84B7-C7B585DF8C00}
+		{5310A317-31FB-4061-9D02-6E57A8C60F0C} = {CBAAA1B7-EA0D-4AE7-8AA2-7923A531E816}
 	EndGlobalSection
 EndGlobal
