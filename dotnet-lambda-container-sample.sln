@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{7477DE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBAAA1B7-EA0D-4AE7-8AA2-7923A531E816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-lambda-container-sample", "src\dotnet-lambda-container-sample\dotnet-lambda-container-sample.csproj", "{81484C5C-7210-4294-B82A-C1BD47013981}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLambda", "src\SampleLambda\SampleLambda.csproj", "{81484C5C-7210-4294-B82A-C1BD47013981}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{163626DC-A1D6-41CD-84B7-C7B585DF8C00}"
 EndProject

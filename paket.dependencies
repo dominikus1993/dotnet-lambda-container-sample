@@ -8,3 +8,4 @@ nuget Amazon.Lambda.TestUtilities
 nuget Microsoft.NET.Test.Sdk
 nuget xunit
 nuget xunit.runner.visualstudio
+nuget  Amazon.Lambda.RuntimeSupport

@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\dotnet-lambda-container-sample\dotnet-lambda-container-sample.csproj" />
+    <ProjectReference Include="..\..\src\SampleLambda\SampleLambda.csproj" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

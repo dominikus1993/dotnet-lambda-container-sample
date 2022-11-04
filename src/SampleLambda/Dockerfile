@@ -25,4 +25,4 @@ FROM base AS final
 WORKDIR /var/task
 COPY --from=publish /app/publish .
 
-CMD [ "dotnet-lambda-container-sample::dotnet_lambda_container_sample.Function::FunctionHandler"]
+CMD [ "SampleLambda"]
