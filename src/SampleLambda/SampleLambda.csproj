@@ -7,8 +7,6 @@
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <!-- Generate ready to run images during publishing to improve cold start time. -->
     <PublishReadyToRun>true</PublishReadyToRun>
-      <OutputType>Exe</OutputType>
-      <RootNamespace>dotnet-lambda-container-sample</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sample.Domain\Sample.Domain.csproj" />

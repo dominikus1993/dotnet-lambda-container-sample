@@ -1,0 +1,2 @@
+dotnet-lambda-container-sample % docker run -d -v ~/.aws-lambda-rie:/aws-lambda -p 9000:8080 \
+  --entrypoint /aws-lambda/aws-lambda-rie samplelambda:latest "/lambda-entrypoint.sh" "SampleLambda::SampleLambda.Function::FunctionHandler"
